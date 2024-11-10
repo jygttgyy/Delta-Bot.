@@ -1,0 +1,19 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "Just a Server",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node refreshCommands.js"
+    },
+    "keywords": [],
+    "author": "jygttgyy",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^18.0.6",
+        "discord.js": "^14.14.1",
+        "dotenv": ""
+    }
+}
